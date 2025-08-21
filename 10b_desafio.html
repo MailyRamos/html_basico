@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 3</title>
+</head>
+<body>
+    <h1>📸 Luna Captures</h1>
+    <header>
+        <nav>
+            <a href="#sobre">Sobre</a> |
+            <a href="#galeria">Galeria</a> |
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <h2 id="sobre">Sobre Luna</h2>
+    <p>Fotógrafa há <strong>8 anos</strong> especializada em <em>momentos únicos.</em></p>
+    <blockquote>
+        <p>"A fotografia captura não apenas o que vemos, mas o que sentimos"</p>
+    </blockquote>
+
+    <h2 id="galeria">Galeria</h2>
+    <img src="assets/prepare-a-colocacao-de-anel-no-dedo-da-noiva_1157-338.avif" alt="Casamento" width="280">
+    <img src="assets/casamento-feliz-um-guia-para-casamentos-felizes.webp" alt="Casamento" width="330">
+    <img src="assets/images.jpg" alt="Casamento" width="340">
+
+    <h2>Serviços</h2>
+    <ul>
+        <li><strong>Casamentos</strong> - R$ 1.200</li>
+        <li><strong>Retratos</strong> - R$ 350</li>
+        <li><strong>Eventos</strong> - R$ 600</li>
+    </ul>
+
+    <h2 id="contato">Contato</h2>
+    <label for="nome">Nome</label><br>
+    <input type="text" id="nome" required><br><br>
+    <label for="email">Email</label><br>
+    <input type="email" id="email" required><br><br>
+
+    <label for="evento">Evento</label>
+    <select name="evento" id="evento">
+        <option value="casamento">Casamento</option>
+        <option value="retrato">Retratos</option>
+        <option value="evento">Evento</option>
+    </select><br><br>
+
+    <label for="detalhes">Detalhes</label><br>
+    <textarea name="detalhes" id="detalhes" rows="5"></textarea><br><br>
+
+    <input type="submit" value="Solicitar Orçamento"><br><br>
+    <nav>
+        &copy; 2025 Luna Captures |
+        <a href="mailto:luna@exemplo.com">luna@exemplo.com</a>
+    </nav>
+</body>
+</html>
